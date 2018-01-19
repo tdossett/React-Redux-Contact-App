@@ -1,6 +1,6 @@
 {
-  "frontend": "./public/dist",
+  "public": "../public/dist",
   "host": "backend-app.feathersjs.com",
-  "port": "PORT",
+  "port": "8080",
   "mongodb": "mongodb://tdossett:09TiMTLD01@ds257627.mlab.com:57627/timworks"
 }
