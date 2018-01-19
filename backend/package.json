@@ -7,7 +7,9 @@
   "keywords": [
     "feathers"
   ],
-  "author": {"name":"Tim Dossett"},
+  "author": {
+    "name": "Tim Dossett"
+  },
   "contributors": [],
   "bugs": {},
   "directories": {
@@ -21,9 +23,8 @@
   "scripts": {
     "test": "npm run eslint && npm run mocha",
     "eslint": "eslint src/. test/. --fix --ignore-pattern .eslintrc.json",
-    "start": "node src/",
-    "mocha": "mocha test/ --recursive --exit",
-    "start": "nodemon src/"
+    "start": "nodemon src/",
+    "mocha": "mocha test/ --recursive --exit"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -39,6 +40,7 @@
     "feathers-socketio": "^2.0.1",
     "helmet": "^3.9.0",
     "mongoose": "^4.13.5",
+    "nodemon": "^1.14.11",
     "serve-favicon": "^2.4.5",
     "winston": "^2.4.0"
   },
